@@ -300,7 +300,7 @@ for x in range(AA):
                 buy_price, sell_price, adx_rsi_signal, adx_rsi_misenal = adx_rsi_strategy(aapl['close'], aapl['adx'], aapl['plus_di'], aapl['minus_di'], aapl['rsi_14'])
                 print(adx_rsi_misenal)
                 print(adx_rsi_signal)
-                if len(adx_rsi_misenal) >2:
+                if len(adx_rsi_misenal) >4:
 
                     """
                     plt.plot(aapl['close'])
